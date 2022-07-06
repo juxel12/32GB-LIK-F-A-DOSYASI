@@ -1,0 +1,166 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-weight: 400;
+    line-height: 1.5;
+}
+section {
+    padding-top:10rem;
+    padding-bottom: 10rem;
+}
+a{
+    text-decoration: none;
+    color: #fff;
+    }
+li{
+    list-style-type: none;
+}
+.text-uppercase{
+    text-transform: uppercase;
+}
+.container{
+    width: 1140px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-right: .5rem;
+    padding-left: .5rem;
+     
+}
+.nav-item .nav-link:hover{
+    color:aqua;
+}
+
+#logo-box{
+    float: left;
+}
+h1 h2 h3 h4 h5 h6{
+    font-weight: 700;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#nav-links .nav-item{
+    float:left;
+    font-size: 2.5rem;
+    padding: 5px;
+    font-family: sans-serif;
+    font-weight: 400;
+    transition:color .3s;
+}
+#nav-links .nav-link{
+    transition: 1s;
+}
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+}
+.clearfix::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+#nav-links{
+    float: right;
+}
+
+html{
+    font-size:10px;
+}
+nav{
+    width: 100%;
+    background-color:#2C3E50 ;
+    color:#fff;
+    padding-bottom: 2.5rem;
+    padding-top: 2.5rem;
+    position: fixed;
+}
+#logo-box{
+    color:#fff;
+}
+.logo{
+    font-size: 2.5rem;
+    color: #fff;
+    font-weight: 700;
+    font-size: 3.2rem;
+    
+}
+header{
+    background-color: #18BC9C;
+    height: ;
+    padding-top:calc(98px + 9.8rem);
+    text-align: center;
+}
+header h1{
+    padding-top:20px;
+    font-size:60px;
+    color:#fff;
+}
+.star-light{
+    border:none;
+    border-top:2px solid #fff;
+    
+    margin:5rem;
+}
+.star-dark{
+    border: none;
+    border-top: 2px solid #2C3E50;
+    padding: 5rem;
+}
+header h2{
+    font-size: 3rem;
+    color:#fff;
+    padding: 3rem;
+}
+#portfolyo h2{
+    font-size: 4.8rem;
+    color: rgb(16, 12, 12);
+    padding: 2rem;
+    color:#2C3E50;
+}
+#portfolyo{
+    padding-top:10rem;
+    padding-bottom:10rem;
+    text-align: center;
+
+}
+#portfolio-images{
+    
+    
+}
+.col{
+    float: left;
+    width: 33.33%;
+    height: auto;
+    padding: 1rem;
+}
+.portfolio-item{
+    width: ;
+    
+    
+}
+.portfolio-item a {
+
+}
+#about {
+    background-color: #18BC9C;
+    height: 600px;
+    color:#fff; 
+    text-align: center;
+}
+#about h2 {
+    font-size: 4.8rem;
+}
+.star-light{ 
+    border: 1px solid #fff;
+}
+#about-text div{
+    text-align: left;
+    width: 50%;
+    padding: 2rem 16rem;
+    font-size: 2rem;
+    float: left;
+}
+@media screen {
+    
+}
